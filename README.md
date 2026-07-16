@@ -1,4 +1,4 @@
-﻿# 🐍 Python Notes — codebasics Playlist
+# 🐍 Python Notes — codebasics Playlist
 
 Personal notes following the **codebasics Complete Python 3 Tutorials** (42 videos).
 
@@ -8,9 +8,9 @@ Personal notes following the **codebasics Complete Python 3 Tutorials** (42 vide
 
 | Level | Folder | Videos | Status |
 |-------|--------|--------|--------|
-| 🟢 1 · Fundamentals | [`fundamentals/`](fundamentals/) | 1 – 18 | ✅ In progress (18/18) |
-| 🟡 2 · Intermediate | [`intermediate/`](intermediate/) | 19 – 28 | 🔜 Up next |
-| 🔴 3 · Advanced | [`advanced/`](advanced/) | 29 – 42 | 🔜 Coming soon |
+| 🟢 1 · Fundamentals | [`fundamentals/`](fundamentals/) | 1 – 18 | ✅ Active (18/18) |
+| 🟡 2 · Intermediate | [`intermediate/`](intermediate/) | 19 – 28 | ✅ Active (10/10) |
+| 🔴 3 · Advanced | [`advanced/`](advanced/) | 29 – 42 | ✅ Active (14/14) |
 
 ---
 
@@ -18,9 +18,9 @@ Personal notes following the **codebasics Complete Python 3 Tutorials** (42 vide
 
 ```
 python/
-├── fundamentals/    # 🟢 Videos 1–18
-├── intermediate/    # 🟡 Videos 19–28
-├── advanced/        # 🔴 Videos 29–42
+├── fundamentals/    # 🟢 Videos 1–18 (14 topics)
+├── intermediate/    # 🟡 Videos 19–28 (10 topics)
+├── advanced/        # 🔴 Videos 29–42 (14 topics)
 ├── .gitignore
 └── README.md
 ```
@@ -56,16 +56,16 @@ python/
 
 | # | Video | Topic | File |
 |---|-------|-------|------|
-| 19 | Class and Objects | OOP basics | [`intermediate/`](intermediate/) |
-| 20 | Inheritance | Inheritance | [`intermediate/`](intermediate/) |
-| 21 | Multiple Inheritance | Multiple Inheritance | [`intermediate/`](intermediate/) |
-| 22 | Raise Exception & Finally | Advanced exceptions | [`intermediate/`](intermediate/) |
-| 23 | Iterators | Iterators | [`intermediate/`](intermediate/) |
-| 24 | Generators | Generators | [`intermediate/`](intermediate/) |
-| 25 | List Set Dict Comprehensions | Comprehensions | [`intermediate/`](intermediate/) |
-| 26 | Sets and Frozen Sets | Sets | [`intermediate/`](intermediate/) |
-| 27 | argparse | CLI arguments | [`intermediate/`](intermediate/) |
-| 28 | Decorators | Decorators | [`intermediate/`](intermediate/) |
+| 19 | Class and Objects | OOP basics | [`oop/`](intermediate/oop/) |
+| 20 | Inheritance | Inheritance | [`inheritance/`](intermediate/inheritance/) |
+| 21 | Multiple Inheritance | Multiple Inheritance | [`multiple_inheritance/`](intermediate/multiple_inheritance/) |
+| 22 | Raise Exception & Finally | Advanced exceptions | [`exceptions_advanced/`](intermediate/exceptions_advanced/) |
+| 23 | Iterators | Iterators | [`iterators/`](intermediate/iterators/) |
+| 24 | Generators | Generators | [`generators/`](intermediate/generators/) |
+| 25 | List Set Dict Comprehensions | Comprehensions | [`comprehensions/`](intermediate/comprehensions/) |
+| 26 | Sets and Frozen Sets | Sets | [`sets_advanced/`](intermediate/sets_advanced/) |
+| 27 | argparse | CLI arguments | [`cli_args/`](intermediate/cli_args/) |
+| 28 | Decorators | Decorators | [`decorators/`](intermediate/decorators/) |
 
 ---
 
@@ -73,20 +73,20 @@ python/
 
 | # | Video | Topic | File |
 |---|-------|-------|------|
-| 29 | Multithreading Intro | Threads | [`advanced/`](advanced/) |
-| 30 | Multiprocessing Intro | Processes | [`advanced/`](advanced/) |
-| 31 | Sharing Data — Array & Value | Shared memory | [`advanced/`](advanced/) |
-| 32 | Sharing Data — Queue | Process queues | [`advanced/`](advanced/) |
-| 33 | Multiprocessing Lock | Locks | [`advanced/`](advanced/) |
-| 34 | Multiprocessing Pool (Map Reduce) | Pool / MapReduce | [`advanced/`](advanced/) |
-| 35 | pytest Introduction | Unit testing | [`advanced/`](advanced/) |
-| 36 | pytest — skip / selective run | Testing | [`advanced/`](advanced/) |
-| 37 | pytest fixtures | Fixtures | [`advanced/`](advanced/) |
-| 38 | pytest parameters | Parametrize | [`advanced/`](advanced/) |
-| 39 | numpy Intro — Array vs List | numpy | [`advanced/`](advanced/) |
-| 40 | numpy Basic Operations | numpy | [`advanced/`](advanced/) |
-| 41 | numpy Slicing / Stacking / Boolean | numpy | [`advanced/`](advanced/) |
-| 42 | numpy nditer | numpy | [`advanced/`](advanced/) |
+| 29 | Multithreading Intro | Threads | [`multithreading/`](advanced/multithreading/) |
+| 30 | Multiprocessing Intro | Processes | [`multiprocessing_intro/`](advanced/multiprocessing_intro/) |
+| 31 | Sharing Data — Array & Value | Shared memory | [`shared_memory/`](advanced/shared_memory/) |
+| 32 | Sharing Data — Queue | Process queues | [`process_queue/`](advanced/process_queue/) |
+| 33 | Multiprocessing Lock | Locks | [`process_lock/`](advanced/process_lock/) |
+| 34 | Multiprocessing Pool (Map Reduce) | Pool / MapReduce | [`pool_map/`](advanced/pool_map/) |
+| 35 | pytest Introduction | Unit testing | [`pytest_intro/`](advanced/pytest_intro/) |
+| 36 | pytest — skip / selective run | Testing | [`pytest_selective/`](advanced/pytest_selective/) |
+| 37 | pytest fixtures | Fixtures | [`pytest_fixtures/`](advanced/pytest_fixtures/) |
+| 38 | pytest parameters | Parametrize | [`pytest_params/`](advanced/pytest_params/) |
+| 39 | numpy Intro — Array vs List | numpy | [`numpy_intro/`](advanced/numpy_intro/) |
+| 40 | numpy Basic Operations | numpy | [`numpy_ops/`](advanced/numpy_ops/) |
+| 41 | numpy Slicing / Stacking / Boolean | numpy | [`numpy_slicing/`](advanced/numpy_slicing/) |
+| 42 | numpy nditer | numpy | [`numpy_nditer/`](advanced/numpy_nditer/) |
 
 ---
 
