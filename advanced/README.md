@@ -1,37 +1,48 @@
-﻿# 🔴 Advanced Python
+# 🔴 3 · Advanced Python
 
-> **Goal:** Master Python internals, concurrency, and high-performance patterns.
-> **Prerequisites:** Complete all scripts in [`../intermediate/`](../intermediate/)
+> **Videos 29–42** of the codebasics Complete Python 3 Tutorials
+> **Prerequisites:** Complete [Intermediate](../intermediate/) (videos 19–28)
 
 ---
 
-## 📋 Topics Planned
+## 📋 Topics
 
-| # | File | Topic | Key Concepts |
-|---|------|-------|-------------|
-| 1 | `async_io.py` | Async I/O | `asyncio`, `async/await`, `aiohttp`, event loop |
-| 2 | `concurrency.py` | Concurrency & Parallelism | `threading`, `multiprocessing`, `concurrent.futures`, GIL |
-| 3 | `metaclasses.py` | Metaclasses | `type`, `__new__`, `__init_subclass__`, class decorators |
-| 4 | `descriptors.py` | Descriptors & `__slots__` | `__get__`/`__set__`/`__delete__`, `__slots__`, memory layout |
-| 5 | `memory_profiling.py` | Memory & Performance | `tracemalloc`, `cProfile`, `timeit`, `line_profiler` |
-| 6 | `c_extensions.py` | C Extensions | `ctypes`, `cffi`, `cython` basics |
-| 7 | `packaging.py` | Python Packaging | `pyproject.toml`, `setuptools`, publishing to PyPI |
-| 8 | `design_patterns.py` | Design Patterns | Singleton, Factory, Observer, Strategy in Python |
-| 9 | `cli_tools.py` | CLI Tools | `argparse`, `click`, `typer`, rich output |
-| 10 | `web_scraping.py` | Web Scraping | `httpx`, `BeautifulSoup`, `playwright` |
+| # | Video | Topic | File | Done |
+|---|-------|-------|------|------|
+| 29 | Multithreading Intro | `threading`, `Thread`, GIL | [`multithreading.py`](multithreading/multithreading.py) | ☐ |
+| 30 | Multiprocessing Intro | `multiprocessing`, `Process` | [`multiprocessing_intro.py`](multiprocessing_intro/multiprocessing_intro.py) | ☐ |
+| 31 | Sharing Data — Array & Value | `Value`, `Array` shared memory | [`shared_memory.py`](shared_memory/shared_memory.py) | ☐ |
+| 32 | Sharing Data — Queue | `Queue` between processes | [`process_queue.py`](process_queue/process_queue.py) | ☐ |
+| 33 | Multiprocessing Lock | `Lock`, race conditions | [`process_lock.py`](process_lock/process_lock.py) | ☐ |
+| 34 | Pool — Map Reduce | `Pool.map()`, parallel tasks | [`pool_map.py`](pool_map/pool_map.py) | ☐ |
+| 35 | pytest Introduction | `pytest`, test functions, assertions | [`test_intro.py`](pytest_intro/test_intro.py) | ☐ |
+| 36 | pytest — skip & selective run | `@pytest.mark.skip`, `-k` filter | [`test_selective.py`](pytest_selective/test_selective.py) | ☐ |
+| 37 | pytest fixtures | `@pytest.fixture`, setup/teardown | [`test_fixtures.py`](pytest_fixtures/test_fixtures.py) | ☐ |
+| 38 | pytest parameters | `@pytest.mark.parametrize` | [`test_params.py`](pytest_params/test_params.py) | ☐ |
+| 39 | numpy Intro | Arrays vs lists, `np.array` | [`numpy_intro.py`](numpy_intro/numpy_intro.py) | ☐ |
+| 40 | numpy Basic Operations | Arithmetic, shape, dtype, reshape | [`numpy_ops.py`](numpy_ops/numpy_ops.py) | ☐ |
+| 41 | numpy Slicing / Stacking | Slicing, `hstack`, `vstack`, boolean indexing | [`numpy_slicing.py`](numpy_slicing/numpy_slicing.py) | ☐ |
+| 42 | numpy nditer | Iterating arrays with `np.nditer` | [`numpy_nditer.py`](numpy_nditer/numpy_nditer.py) | ☐ |
+
+---
+
+## 📦 Requirements
+
+```powershell
+pip install pytest numpy
+```
 
 ---
 
 ## 🚀 Running Scripts
 
 ```powershell
-# Run a single script
-python advanced\async_io.py
+python multithreading/multithreading.py
 
-# Run all scripts
-Get-ChildItem advanced\*.py | ForEach-Object { Write-Host "--- $_ ---"; python $_ }
+# Run tests
+pytest pytest_intro/test_intro.py
 ```
 
 ---
 
-*Status: 🔜 Coming soon*
+*← [intermediate](../intermediate/) · [home →](../README.md)*

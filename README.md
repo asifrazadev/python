@@ -1,132 +1,109 @@
-﻿# 🐍 Python Notes
+﻿# 🐍 Python Notes — codebasics Playlist
 
-Personal Python learning notes — from absolute beginner to advanced.
-Each level lives in its own folder with its own README.
+Personal notes following the **codebasics Complete Python 3 Tutorials** (42 videos).
 
 ---
 
 ## 🗺️ Learning Roadmap
 
-| Level | Folder | Status | Description |
-|-------|--------|--------|-------------|
-| 🟢 Beginner | [`fundamentals/`](fundamentals/) | ✅ Active | Core syntax, built-in types, control flow, functions, modules, file I/O |
-| 🟡 Intermediate | `intermediate/` | 🔜 Coming soon | OOP, iterators, generators, decorators, context managers, testing |
-| 🔴 Advanced | `advanced/` | 🔜 Coming soon | Async/await, metaclasses, descriptors, C extensions, performance |
+| Level | Folder | Videos | Status |
+|-------|--------|--------|--------|
+| 🟢 1 · Fundamentals | [`fundamentals/`](fundamentals/) | 1 – 18 | ✅ In progress (18/18) |
+| 🟡 2 · Intermediate | [`intermediate/`](intermediate/) | 19 – 28 | 🔜 Up next |
+| 🔴 3 · Advanced | [`advanced/`](advanced/) | 29 – 42 | 🔜 Coming soon |
 
 ---
 
-## 📁 Folder Structure
+## 📁 Structure
 
 ```
 python/
-├── fundamentals/           # 🟢 Beginner — 14 scripts, core concepts
-│   ├── variables.py
-│   ├── python_numbers.py
-│   ├── strings.py
-│   ├── lists.py
-│   ├── dictionaries.py
-│   ├── sets.py
-│   ├── tuples.py
-│   ├── if_conditions.py
-│   ├── for_loops.py
-│   ├── functions.py
-│   ├── lambda_functions.py
-│   ├── modules.py
-│   ├── file_io.py
-│   ├── exception_handling.py
-│   └── README.md
-│
-├── intermediate/           # 🟡 Coming soon
-│   └── README.md
-│
-├── advanced/               # 🔴 Coming soon
-│   └── README.md
-│
+├── fundamentals/    # 🟢 Videos 1–18
+├── intermediate/    # 🟡 Videos 19–28
+├── advanced/        # 🔴 Videos 29–42
 ├── .gitignore
-└── README.md               ← you are here
+└── README.md
 ```
 
 ---
 
-## 🟢 Beginner — `fundamentals/`
+## 🟢 1 · Fundamentals — Videos 1–18
 
-> **Goal:** Understand Python syntax and the standard library basics.
-
-| # | File | Topic |
-|---|------|-------|
-| 1 | `variables.py` | Variables & Data Types |
-| 2 | `python_numbers.py` | Numbers & Math |
-| 3 | `strings.py` | Strings |
-| 4 | `lists.py` | Lists |
-| 5 | `dictionaries.py` | Dictionaries |
-| 6 | `sets.py` | Sets |
-| 7 | `tuples.py` | Tuples |
-| 8 | `if_conditions.py` | If Conditions |
-| 9 | `for_loops.py` | For Loops |
-| 10 | `functions.py` | Functions |
-| 11 | `lambda_functions.py` | Lambda Functions |
-| 12 | `modules.py` | Modules & Package Managers |
-| 13 | `file_io.py` | File I/O |
-| 14 | `exception_handling.py` | Exception Handling |
-
-→ See [`fundamentals/README.md`](fundamentals/README.md) for full details.
-
----
-
-## 🟡 Intermediate — `intermediate/` *(coming soon)*
-
-> **Goal:** Write idiomatic, reusable, and well-tested Python.
-
-Planned topics:
-- Object-Oriented Programming (classes, inheritance, dunder methods)
-- Iterators & Generators (`yield`, `itertools`)
-- Decorators (functools, custom decorators)
-- Context Managers (`with` statement, `contextlib`)
-- Comprehensions (list, dict, set, generator)
-- Regular Expressions (`re`)
-- Unit Testing (`unittest`, `pytest`)
-- Virtual Environments & Dependency Management
-- Type Hints & `mypy`
-- `dataclasses` & `attrs`
+| # | Video | Topic | File |
+|---|-------|-------|------|
+| 1 | Why Learn Python? | Intro | — |
+| 2 | Install Python on Windows | Setup | — |
+| 3 | Variables | Variables & Data Types | [`variables/`](fundamentals/variables/) |
+| 4 | Numbers | Numbers & Math | [`python_numbers/`](fundamentals/python_numbers/) |
+| 5 | Strings | Strings | [`strings/`](fundamentals/strings/) |
+| 6 | Lists | Lists | [`lists/`](fundamentals/lists/) |
+| 7 | Install PyCharm | Setup | — |
+| 8 | Debug with PyCharm | Debugging | — |
+| 9 | If Statement | If Conditions | [`if_conditions/`](fundamentals/if_conditions/) |
+| 10 | For Loop | For Loops | [`for_loops/`](fundamentals/for_loops/) |
+| 11 | Functions | Functions | [`functions/`](fundamentals/functions/) |
+| 12 | Dictionaries and Tuples | Dicts & Tuples | [`dictionaries/`](fundamentals/dictionaries/) · [`tuples/`](fundamentals/tuples/) |
+| 13 | Install Module (pip) | pip | [`modules/`](fundamentals/modules/) |
+| 14 | Modules | Modules | [`modules/`](fundamentals/modules/) |
+| 15 | Working With JSON | JSON | [`file_io/`](fundamentals/file_io/) |
+| 16 | Reading/Writing Files | File I/O | [`file_io/`](fundamentals/file_io/) |
+| 17 | if __name__ == "__main__" | Module guard | [`modules/`](fundamentals/modules/) |
+| 18 | Exception Handling | Exceptions | [`exception_handling/`](fundamentals/exception_handling/) |
 
 ---
 
-## 🔴 Advanced — `advanced/` *(coming soon)*
+## 🟡 2 · Intermediate — Videos 19–28
 
-> **Goal:** Deep Python internals and high-performance patterns.
+| # | Video | Topic | File |
+|---|-------|-------|------|
+| 19 | Class and Objects | OOP basics | [`intermediate/`](intermediate/) |
+| 20 | Inheritance | Inheritance | [`intermediate/`](intermediate/) |
+| 21 | Multiple Inheritance | Multiple Inheritance | [`intermediate/`](intermediate/) |
+| 22 | Raise Exception & Finally | Advanced exceptions | [`intermediate/`](intermediate/) |
+| 23 | Iterators | Iterators | [`intermediate/`](intermediate/) |
+| 24 | Generators | Generators | [`intermediate/`](intermediate/) |
+| 25 | List Set Dict Comprehensions | Comprehensions | [`intermediate/`](intermediate/) |
+| 26 | Sets and Frozen Sets | Sets | [`intermediate/`](intermediate/) |
+| 27 | argparse | CLI arguments | [`intermediate/`](intermediate/) |
+| 28 | Decorators | Decorators | [`intermediate/`](intermediate/) |
 
-Planned topics:
-- Async I/O (`asyncio`, `aiohttp`)
-- Concurrency & Parallelism (`threading`, `multiprocessing`)
-- Metaclasses & Class Decorators
-- Descriptors & `__slots__`
-- Memory Management & Profiling
-- C Extensions & `ctypes`
-- Python Packaging (`pyproject.toml`, publishing to PyPI)
-- Design Patterns in Python
-- CLI Tools (`argparse`, `click`, `typer`)
-- Web Scraping (`httpx`, `BeautifulSoup`, `playwright`)
+---
+
+## 🔴 3 · Advanced — Videos 29–42
+
+| # | Video | Topic | File |
+|---|-------|-------|------|
+| 29 | Multithreading Intro | Threads | [`advanced/`](advanced/) |
+| 30 | Multiprocessing Intro | Processes | [`advanced/`](advanced/) |
+| 31 | Sharing Data — Array & Value | Shared memory | [`advanced/`](advanced/) |
+| 32 | Sharing Data — Queue | Process queues | [`advanced/`](advanced/) |
+| 33 | Multiprocessing Lock | Locks | [`advanced/`](advanced/) |
+| 34 | Multiprocessing Pool (Map Reduce) | Pool / MapReduce | [`advanced/`](advanced/) |
+| 35 | pytest Introduction | Unit testing | [`advanced/`](advanced/) |
+| 36 | pytest — skip / selective run | Testing | [`advanced/`](advanced/) |
+| 37 | pytest fixtures | Fixtures | [`advanced/`](advanced/) |
+| 38 | pytest parameters | Parametrize | [`advanced/`](advanced/) |
+| 39 | numpy Intro — Array vs List | numpy | [`advanced/`](advanced/) |
+| 40 | numpy Basic Operations | numpy | [`advanced/`](advanced/) |
+| 41 | numpy Slicing / Stacking / Boolean | numpy | [`advanced/`](advanced/) |
+| 42 | numpy nditer | numpy | [`advanced/`](advanced/) |
 
 ---
 
 ## ⚙️ Requirements
 
-- Python **3.10+** (some scripts use `match/case`)
-- No external dependencies for `fundamentals/` — stdlib only
-- Later levels may introduce third-party packages (documented per folder)
+- Python **3.10+**
+- `fundamentals/` — stdlib only
+- Later levels may use: `pytest`, `numpy`
 
 ---
 
 ## 🚀 Running Scripts
 
 ```powershell
-# Run a single script
-python fundamentals\variables.py
-
-# Run all scripts in a level
-Get-ChildItem fundamentals\*.py | ForEach-Object { Write-Host "--- $_ ---"; python $_ }
+python fundamentals\variables\variables.py
 ```
 
 ---
 
-*Learning track — ongoing. Updated as new levels are added.*
+*Following: codebasics — Complete Python 3 Tutorials (42 videos)*

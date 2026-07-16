@@ -1,37 +1,33 @@
-﻿# 🟡 Intermediate Python
+# 🟡 2 · Intermediate Python
 
-> **Goal:** Write idiomatic, reusable, and well-tested Python.
-> **Prerequisites:** Complete all scripts in [`../fundamentals/`](../fundamentals/)
+> **Videos 19–28** of the codebasics Complete Python 3 Tutorials
+> **Prerequisites:** Complete [Fundamentals](../fundamentals/) (videos 1–18)
 
 ---
 
-## 📋 Topics Planned
+## 📋 Topics
 
-| # | File | Topic | Key Concepts |
-|---|------|-------|-------------|
-| 1 | `oop.py` | Object-Oriented Programming | classes, inheritance, `super()`, dunder methods, `@property` |
-| 2 | `iterators_generators.py` | Iterators & Generators | `__iter__`/`__next__`, `yield`, `yield from`, `itertools` |
-| 3 | `decorators.py` | Decorators | `functools.wraps`, stacked decorators, parametrised decorators |
-| 4 | `context_managers.py` | Context Managers | `with`, `__enter__`/`__exit__`, `contextlib` |
-| 5 | `comprehensions.py` | Comprehensions | list, dict, set, generator expressions |
-| 6 | `regex.py` | Regular Expressions | `re` module, groups, lookaheads, `re.compile` |
-| 7 | `testing.py` | Unit Testing | `unittest`, `pytest`, fixtures, mocking |
-| 8 | `type_hints.py` | Type Hints | `typing`, `mypy`, generics, `Protocol` |
-| 9 | `dataclasses.py` | Dataclasses | `@dataclass`, `field()`, frozen, `__post_init__` |
-| 10 | `venvs.py` | Virtual Environments | `venv`, `pip`, `poetry`, `uv` |
+| # | Video | Topic | File | Done |
+|---|-------|-------|------|------|
+| 19 | Class and Objects | OOP — classes, `__init__`, `self`, instance methods | [`oop.py`](oop/oop.py) | ☐ |
+| 20 | Inheritance | Single inheritance, `super()`, method overriding | [`inheritance.py`](inheritance/inheritance.py) | ☐ |
+| 21 | Multiple Inheritance | Multiple base classes, MRO | [`multiple_inheritance.py`](multiple_inheritance/multiple_inheritance.py) | ☐ |
+| 22 | Raise Exception & Finally | `raise`, custom exceptions, `finally` | [`exceptions_advanced.py`](exceptions_advanced/exceptions_advanced.py) | ☐ |
+| 23 | Iterators | `__iter__`, `__next__`, `StopIteration` | [`iterators.py`](iterators/iterators.py) | ☐ |
+| 24 | Generators | `yield`, generator functions, lazy evaluation | [`generators.py`](generators/generators.py) | ☐ |
+| 25 | Comprehensions | List, set, dict comprehensions, generator expressions | [`comprehensions.py`](comprehensions/comprehensions.py) | ☐ |
+| 26 | Sets and Frozen Sets | Set operations, `frozenset` | [`sets_advanced.py`](sets_advanced/sets_advanced.py) | ☐ |
+| 27 | argparse | CLI argument parsing | [`cli_args.py`](cli_args/cli_args.py) | ☐ |
+| 28 | Decorators | `@decorator`, `functools.wraps`, stacking | [`decorators.py`](decorators/decorators.py) | ☐ |
 
 ---
 
 ## 🚀 Running Scripts
 
 ```powershell
-# Run a single script
-python intermediate\oop.py
-
-# Run all scripts
-Get-ChildItem intermediate\*.py | ForEach-Object { Write-Host "--- $_ ---"; python $_ }
+python oop/oop.py
 ```
 
 ---
 
-*Status: 🔜 Coming soon*
+*← [fundamentals](../fundamentals/) · [advanced →](../advanced/)*
